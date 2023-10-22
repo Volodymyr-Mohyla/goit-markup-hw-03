@@ -255,6 +255,7 @@ ul li {
     width: calc((100% - 48px) / 3);
     border: 1px solid #e7e9fc;
     border-top: none;
+    
 }
 .fourth-sec-caption{
     line-height: 1.2;
