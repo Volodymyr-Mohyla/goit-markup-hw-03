@@ -37,7 +37,7 @@ ul li {
 }
 /*-------END GENERAL STYLES----*/
 
-.conteiner{
+.container{
     /*
     width: 100%;
     max-width: 1128px;
@@ -47,7 +47,7 @@ ul li {
     padding: 0 15px
 }
 
-/**--- HEADER ---*/
+/**--- HEADER SECTION---*/
 .header{
     border-bottom: 1px solid #e7e9fc;
    /*height: 71px;*/
@@ -88,7 +88,8 @@ ul li {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-weight: 500;
-    font-size: 16px;   
+    font-size: 16px;
+    padding: 24px 0;
 }
 .button-menu:hover, .button-menu:focus {
     color: #404BBF;
@@ -114,19 +115,23 @@ ul li {
     color: #404BBF;
 }
 
-/*---END HEADER ---*/
+/*------ END HEADER SECTION ------*/
 
+
+/**------ SECTION 1 ------*/
 
 .first-section {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
-.title {
+.first-section .title {
     color: #ffffff;
     text-align: center;
     line-height: 1.07;
     font-size: 56px;
     letter-spacing: 0.02em;
-    
+    max-width: 496px;
+    margin: 0 auto 48px;
 }
 .first-section-button {
     background-color: #4D5AE5;
@@ -135,6 +140,12 @@ ul li {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 .first-section-button:hover, .first-section-button:focus {
     background-color: #404BBF;
