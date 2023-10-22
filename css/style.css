@@ -151,12 +151,23 @@ ul li {
     background-color: #404BBF;
 
 }
+/*------ END SECTION 1 ------*/
 
-.second-section-title{
-    font-weight: 500;
-    line-height: 1.2;
-    font-size: 20px;
-    color: #2e2f42;
+
+
+/**------ SECTION 2 ------*/
+.second-section{
+    padding: 120px 0;
+}
+.list-sec-sect{
+    display: flex;
+    gap: 24px;
+}
+.elm-list-sec-sect{
+    flex-basis: calc((100% - 3 * 24px) / 4)
+}
+.capt-sec-sect{
+    margin-bottom: 8px;
 }
 .section-two-h-tree{
     font-weight: 500;
@@ -169,10 +180,11 @@ ul li {
 .second-section-text{
     line-height: 1.5;
     letter-spacing: 0.02em;
-
-
 }
+/*------ END SECTION 2 ------*/
 
+
+/**------ SECTION 3 ------*/
 .third-section-title{
     text-align: center;
     text-transform: capitalize;
