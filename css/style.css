@@ -1,0 +1,146 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
+    color: #434455;
+}
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    color: #4D5AE5;
+    text-decoration: none;
+    line-height: 1.17;
+    letter-spacing: 0.03em; 
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.logo .logo-span {
+    color: #2E2F42;
+} 
+.logo-span-footer{
+    color: #f4f4fd;
+}
+ul li{
+    list-style-type: none;
+}
+.button-menu {
+    text-decoration: none;
+    color: #2E2F42;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 16px;
+}
+.button-menu:hover, .button-menu:focus {
+    color: #404BBF;
+}
+.address {
+    font-style: normal
+}
+.address-link {
+    text-decoration: none;
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+}
+.address-link:hover, .address-link:focus{
+    color: #404BBF;
+}
+.first-section {
+    background-color: #2e2f42;
+}
+.title {
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.07;
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    
+}
+.first-section-button {
+    background-color: #4D5AE5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+.first-section-button:hover, .first-section-button:focus {
+    background-color: #404BBF;
+
+}
+
+.second-section-title{
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 20px;
+    color: #2e2f42;
+}
+.section-two-h-tree{
+    font-weight: 500;
+    line-height: 1.2;
+    color: #2e2f42;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+}
+.second-section-text{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+
+}
+
+.third-section-title{
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+
+}
+.section-tree-li{
+    background-color: #FFFFFF;
+}
+.third-section-caption{
+    font-weight: 500;
+    line-height: 1.2;
+    color: #2e2f42;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.third-section-text{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.fourth-sec-caption{
+    line-height: 1.2;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.fourth-sec-text{
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    font-size: 16px;
+}
+.third-section{
+    background-color: #F4F4FD;
+}
+.section-tree-h-two {
+    text-align: center;
+    text-transform: capitalize;
+    color:#2e2f42;
+}
+.footer {
+    background-color:#2e2f42;
+}
+.footer-text {
+    line-height: 1.5;
+    color:#F4F4FD;
+    letter-spacing: 0.02em;
+}
+
