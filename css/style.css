@@ -244,6 +244,7 @@ ul li {
 }
 .text-app{
     padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 }
 .list-sec-fourth{
     display: flex;
@@ -255,7 +256,7 @@ ul li {
     width: calc((100% - 48px) / 3);
     border: 1px solid #e7e9fc;
     border-top: none;
-    
+
 }
 .fourth-sec-caption{
     line-height: 1.2;
