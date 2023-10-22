@@ -60,7 +60,7 @@ ul li {
     display: flex;
     align-items: center;
 }
-.nav-menu .logo {
+.logo {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     color: #4D5AE5;
@@ -289,6 +289,8 @@ ul li {
     line-height: 1.5;
     color:#F4F4FD;
     letter-spacing: 0.02em;
+    font-size: 16px;
+    max-width: 264px;
 }
 .logo-span-footer {
     color: #f4f4fd;
