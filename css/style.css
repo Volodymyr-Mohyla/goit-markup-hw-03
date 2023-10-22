@@ -1,9 +1,66 @@
+/**-------CONSPECT STYLE----*/
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+/*-------END CONSPECT STYLE----*/
+
+/**-------GENERAL STYLES----*/
 body {
     font-family: "Roboto", sans-serif;
     background-color: #FFFFFF;
     color: #434455;
 }
-.logo {
+img{
+    display: block;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul, ol{
+    margin-top: 0px;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+ul li {
+    list-style-type: none;
+}
+/*-------END GENERAL STYLES----*/
+
+.conteiner{
+    /*
+    width: 100%;
+    max-width: 1128px;
+    */
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px
+}
+
+/**--- HEADER ---*/
+.header{
+    border-bottom: 1px solid #e7e9fc;
+   /*height: 71px;*/
+}
+.head-cont{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+}
+.nav-menu .logo {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     color: #4D5AE5;
@@ -12,29 +69,39 @@ body {
     letter-spacing: 0.03em; 
     text-transform: uppercase;
     font-weight: 700;
+    margin-right: 76px;
 }
 .logo .logo-span {
     color: #2E2F42;
-} 
-.logo-span-footer{
-    color: #f4f4fd;
 }
-ul li{
-    list-style-type: none;
+.nav-menu .navigation{
+    display: flex;
+    gap: 40px;
 }
-.button-menu {
+.navigation .list-in-navigation{
+    padding: 24px 0;
+}
+
+.navigation .button-menu {
     text-decoration: none;
     color: #2E2F42;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 16px;   
 }
 .button-menu:hover, .button-menu:focus {
     color: #404BBF;
 }
 .address {
     font-style: normal
+}
+.address .list-in-adr{
+    display: flex;
+    gap: 40px;
+}
+.address .elm-list-in-adr{
+    padding: 24px 0;
 }
 .address-link {
     text-decoration: none;
@@ -46,6 +113,10 @@ ul li{
 .address-link:hover, .address-link:focus{
     color: #404BBF;
 }
+
+/*---END HEADER ---*/
+
+
 .first-section {
     background-color: #2e2f42;
 }
@@ -143,4 +214,7 @@ ul li{
     color:#F4F4FD;
     letter-spacing: 0.02em;
 }
+.logo-span-footer {
+    color: #f4f4fd;
 
+}
