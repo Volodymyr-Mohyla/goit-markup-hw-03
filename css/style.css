@@ -69,8 +69,13 @@ ul li {
     letter-spacing: 0.03em; 
     text-transform: uppercase;
     font-weight: 700;
+    
+}
+.logo-header {
     margin-right: 76px;
 }
+
+
 .logo .logo-span {
     color: #2E2F42;
 }
@@ -168,6 +173,11 @@ ul li {
 }
 .capt-sec-sect{
     margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.083em;
+    /* 120% 24px*/
+    letter-spacing: 0.02em;
 }
 .section-two-h-tree{
     font-weight: 500;
@@ -291,6 +301,7 @@ ul li {
     letter-spacing: 0.02em;
     font-size: 16px;
     max-width: 264px;
+    
 }
 .logo-span-footer {
     color: #f4f4fd;
@@ -299,4 +310,5 @@ ul li {
     display: inline-block;
     margin-bottom: 16px;
 }
+
 /*------ END SECTION FOOTER ------*/
